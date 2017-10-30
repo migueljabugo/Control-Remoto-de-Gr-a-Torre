@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<grua>
+    <usuarios>
+        <usuario clave="usuario" usuario="usuario"/>
+        <usuario clave="admin" usuario="admin"/>
+        <usuario clave="contraseña" usuario="Miguel Angel"/>
+    </usuarios>
+</grua>

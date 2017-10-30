@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Control Grua Torre</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="eliminar">Eliminar</string>
+    <string name="add_grua">Añadir grúa</string>
+    <string name="nueva_grua">Nueva gúa</string>
+    <string name="eliminar_grua">Eliminar grúa</string>
+    <string name="title_activity_add_grua">AddGrua</string>
+    <string name="direccion">Dirección IP o Dominio</string>
+    <string name="nombre_usuario">Nombre de usuario</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="guardar">Guardar</string>
+    <string name="datosIncompletos">Existen campos incompletos</string>
+    <string name="guardadoConExito">Guardado con exito</string>
+    <string name="deseaSalir">¿Seguro desea salir?</string>
+    <string name="nombre_grua">Nombre de la grúa</string>
+    <string name="paradaEmergencia">Parada de Emergencia</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="errorConectar">Error al conectar con el servidor</string>
+    <string name="subiendo">Subiendo gancho</string>
+    <string name="bajando">Bajando gancho</string>
+    <string name="rotar_derecha">Rotando hacia la derecha</string>
+    <string name="rotar_izquierda">Rotando hacia la izquierda</string>
+    <string name="carro_atras">Moviendo el carro hacia atras</string>
+    <string name="carro_adelante">Moviendo el carro hacia delante</string>
+    <string name="desconectado">Sin acceso al servidor</string>
+    <string name="desconectando">Desconectado del servidor</string>
+    <string name="conectado">Conectado con el servidor</string>
+</resources>

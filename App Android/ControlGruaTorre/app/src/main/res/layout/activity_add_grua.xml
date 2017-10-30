@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.miguelangel.controlgruatorre.activities.AddGrua"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+        <EditText
+            android:id="@+id/EditTextNombre"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/nombre_grua"
+            android:inputType="textUri"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/EditTextDireccion"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/direccion"
+            android:inputType="textUri"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/EditTextUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/nombre_usuario"
+            android:layout_marginBottom="20dp"
+            android:inputType="text"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/EditTextClave"
+                android:layout_height="50dp"
+                android:hint="@string/contrasena"
+                android:layout_marginBottom="20dp"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_toStartOf="@+id/verClave" />
+            <ImageButton
+                android:id="@+id/verClave"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_action_ojo"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonGuardarGrua"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/guardar"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+</RelativeLayout>
